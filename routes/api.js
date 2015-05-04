@@ -133,9 +133,6 @@ router.get('/addLegislator/:last_name', function (req, res, next) {
                     return console.error(err);
                 }
             });
-            // if (results.length === 1) {
-            //     Legislator.create(results, function(err, post))
-            // }
         }
     });
 });
